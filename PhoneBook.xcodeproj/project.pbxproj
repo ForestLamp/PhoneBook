@@ -3,29 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62EBB0A98993A890DF1B8F97 /* Pods_PhoneBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D84524C4A59243FD924515C /* Pods_PhoneBook.framework */; };
+		CE7210EC253ACEDD00C98DCD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7210EB253ACEDD00C98DCD /* Data.swift */; };
+		CE7210F0253ACFC300C98DCD /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7210EF253ACFC300C98DCD /* Network.swift */; };
+		CE7A792F25374D4000788D06 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A792E25374D4000788D06 /* AboutViewController.swift */; };
 		CE8679E02536234C00B254C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8679DF2536234C00B254C5 /* AppDelegate.swift */; };
 		CE8679E22536234C00B254C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8679E12536234C00B254C5 /* SceneDelegate.swift */; };
-		CE8679E42536234C00B254C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8679E32536234C00B254C5 /* ViewController.swift */; };
 		CE8679E72536234C00B254C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8679E52536234C00B254C5 /* Main.storyboard */; };
-		CE8679EA2536234C00B254C5 /* PhoneBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE8679E82536234C00B254C5 /* PhoneBook.xcdatamodeld */; };
 		CE8679EC2536234E00B254C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8679EB2536234E00B254C5 /* Assets.xcassets */; };
 		CE8679EF2536234E00B254C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8679ED2536234E00B254C5 /* LaunchScreen.storyboard */; };
+		CE8679FA2536242300B254C5 /* PhoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8679F92536242300B254C5 /* PhoneTableViewController.swift */; };
+		CE8A887D253F391C00BA2540 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A887B253F391C00BA2540 /* CustomCellTableViewCell.swift */; };
+		CE8A887E253F391C00BA2540 /* CustomCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8A887C253F391C00BA2540 /* CustomCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AA417B71F252BF6A6A8E7F6 /* Pods-PhoneBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneBook.release.xcconfig"; path = "Target Support Files/Pods-PhoneBook/Pods-PhoneBook.release.xcconfig"; sourceTree = "<group>"; };
+		5D84524C4A59243FD924515C /* Pods_PhoneBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7210EB253ACEDD00C98DCD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CE7210EF253ACFC300C98DCD /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CE7A792E25374D4000788D06 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		CE8679DC2536234C00B254C5 /* PhoneBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8679DF2536234C00B254C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8679E12536234C00B254C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE8679E32536234C00B254C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE8679E62536234C00B254C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE8679E92536234C00B254C5 /* PhoneBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhoneBook.xcdatamodel; sourceTree = "<group>"; };
 		CE8679EB2536234E00B254C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8679EE2536234E00B254C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8679F02536234E00B254C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8679F92536242300B254C5 /* PhoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTableViewController.swift; sourceTree = "<group>"; };
+		CE8A887B253F391C00BA2540 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		CE8A887C253F391C00BA2540 /* CustomCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellTableViewCell.xib; sourceTree = "<group>"; };
+		E0FEBEAF149390C209C17E27 /* Pods-PhoneBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneBook.debug.xcconfig"; path = "Target Support Files/Pods-PhoneBook/Pods-PhoneBook.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62EBB0A98993A890DF1B8F97 /* Pods_PhoneBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0736179F2D7B2208B5835ED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D84524C4A59243FD924515C /* Pods_PhoneBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7A793225374D8800788D06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8679F92536242300B254C5 /* PhoneTableViewController.swift */,
+				CE7210EF253ACFC300C98DCD /* Network.swift */,
+				CE7210EB253ACEDD00C98DCD /* Data.swift */,
+				CE7A792E25374D4000788D06 /* AboutViewController.swift */,
+				CE8A887B253F391C00BA2540 /* CustomCellTableViewCell.swift */,
+				CE8A887C253F391C00BA2540 /* CustomCellTableViewCell.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE7A793325374DC900788D06 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8679DF2536234C00B254C5 /* AppDelegate.swift */,
+				CE8679E12536234C00B254C5 /* SceneDelegate.swift */,
+				CE8679E52536234C00B254C5 /* Main.storyboard */,
+				CE8679EB2536234E00B254C5 /* Assets.xcassets */,
+				CE8679ED2536234E00B254C5 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
 		CE8679D32536234C00B254C5 = {
 			isa = PBXGroup;
 			children = (
 				CE8679DE2536234C00B254C5 /* PhoneBook */,
 				CE8679DD2536234C00B254C5 /* Products */,
+				EF6EC05D68EF5DE4FA313744 /* Pods */,
+				0736179F2D7B2208B5835ED2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +106,20 @@
 		CE8679DE2536234C00B254C5 /* PhoneBook */ = {
 			isa = PBXGroup;
 			children = (
-				CE8679DF2536234C00B254C5 /* AppDelegate.swift */,
-				CE8679E12536234C00B254C5 /* SceneDelegate.swift */,
-				CE8679E32536234C00B254C5 /* ViewController.swift */,
-				CE8679E52536234C00B254C5 /* Main.storyboard */,
-				CE8679EB2536234E00B254C5 /* Assets.xcassets */,
-				CE8679ED2536234E00B254C5 /* LaunchScreen.storyboard */,
 				CE8679F02536234E00B254C5 /* Info.plist */,
-				CE8679E82536234C00B254C5 /* PhoneBook.xcdatamodeld */,
+				CE7A793325374DC900788D06 /* Supporting files */,
+				CE7A793225374D8800788D06 /* Controllers */,
 			);
 			path = PhoneBook;
+			sourceTree = "<group>";
+		};
+		EF6EC05D68EF5DE4FA313744 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0FEBEAF149390C209C17E27 /* Pods-PhoneBook.debug.xcconfig */,
+				1AA417B71F252BF6A6A8E7F6 /* Pods-PhoneBook.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE8679F32536234E00B254C5 /* Build configuration list for PBXNativeTarget "PhoneBook" */;
 			buildPhases = (
+				7A2FECF046626F8AD5E817E6 /* [CP] Check Pods Manifest.lock */,
 				CE8679D82536234C00B254C5 /* Sources */,
 				CE8679D92536234C00B254C5 /* Frameworks */,
 				CE8679DA2536234C00B254C5 /* Resources */,
+				48661128AA738F065B4E21FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,21 +183,67 @@
 			files = (
 				CE8679EF2536234E00B254C5 /* LaunchScreen.storyboard in Resources */,
 				CE8679EC2536234E00B254C5 /* Assets.xcassets in Resources */,
+				CE8A887E253F391C00BA2540 /* CustomCellTableViewCell.xib in Resources */,
 				CE8679E72536234C00B254C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48661128AA738F065B4E21FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneBook/Pods-PhoneBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneBook/Pods-PhoneBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneBook/Pods-PhoneBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2FECF046626F8AD5E817E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE8679D82536234C00B254C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8679E42536234C00B254C5 /* ViewController.swift in Sources */,
 				CE8679E02536234C00B254C5 /* AppDelegate.swift in Sources */,
 				CE8679E22536234C00B254C5 /* SceneDelegate.swift in Sources */,
-				CE8679EA2536234C00B254C5 /* PhoneBook.xcdatamodeld in Sources */,
+				CE7210F0253ACFC300C98DCD /* Network.swift in Sources */,
+				CE8A887D253F391C00BA2540 /* CustomCellTableViewCell.swift in Sources */,
+				CE7A792F25374D4000788D06 /* AboutViewController.swift in Sources */,
+				CE7210EC253ACEDD00C98DCD /* Data.swift in Sources */,
+				CE8679FA2536242300B254C5 /* PhoneTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +387,7 @@
 		};
 		CE8679F42536234E00B254C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FEBEAF149390C209C17E27 /* Pods-PhoneBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,12 +401,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.PhoneBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CE8679F52536234E00B254C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA417B71F252BF6A6A8E7F6 /* Pods-PhoneBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,7 +421,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ru.PhoneBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -345,19 +447,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CE8679E82536234C00B254C5 /* PhoneBook.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CE8679E92536234C00B254C5 /* PhoneBook.xcdatamodel */,
-			);
-			currentVersion = CE8679E92536234C00B254C5 /* PhoneBook.xcdatamodel */;
-			path = PhoneBook.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CE8679D42536234C00B254C5 /* Project object */;
 }
